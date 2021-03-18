@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Integrated Path</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="container">
+     <div class="div-one">
+     </div>
+     <div class="div-two">
+          <img class="image-top" src="img2.jpg" alt="dd">
+          <div id="form">
+             <input id="input1" type="text" placeholder="type your name">
+             <input id="input2" type="text" placeholder="type your position">
+             <input id="input3" type="text" placeholder="type your phone">
+             <input id="input4" type="text" placeholder="type your e-mail">
+             <button onclick="myFunction()">Click</button>
+              
+          </div>
+          
+        
+          <img class="image-bottom" src="img3.jpg" alt="ddd">
+        
+     </div>
+</div>
+
+<script>
+var input1 = document.getElementById("input1");
+var input2 = document.getElementById("input2");
+var input3 = document.getElementById("input3");
+var input4 = document.getElementById("input4");
+
+function myFunction(){
+     if(input1.value != "Jafar Majid" && input2.value != "Graphic Designer" && input3.value != "+9647711444940"
+     && input4.value != "jafar.majid@int-path.com"){
+       alert("Fill the field or fill in the correct information!");
+       return false;
+     }
+
+      window.location.href="index2.html";
+  
+      
+
+}
+
+
+
+   
+
+
+
+</script>
+  </body>
+</html>
